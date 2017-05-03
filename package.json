@@ -1,0 +1,25 @@
+{
+  "name": "flashcard-generator",
+  "version": "1.0.0",
+  "description": "Command-Line Interface that allows you to quiz yourself using the cards you've created",
+  "main": "BasicCard.js",
+  "dependencies": {
+    "file": "^0.2.2",
+    "inquirer": "^3.0.6",
+    "system": "^1.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/janettwalker/Flashcard-Generator.git"
+  },
+  "author": "Janet Walker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/janettwalker/Flashcard-Generator/issues"
+  },
+  "homepage": "https://github.com/janettwalker/Flashcard-Generator#readme"
+}
