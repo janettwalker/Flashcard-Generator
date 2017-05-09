@@ -67,6 +67,7 @@ const createCards = (promptType, logFile) => {
 
             writeToLog(logFile, JSON.stringify(cardArray));
             flashcards();
+
         }
     });
 };
@@ -166,6 +167,7 @@ const clozePrompt = [{
     name: 'makeMore',
     message: 'Create another card (hit enter for YES)?',
     default: true
+    
 }]
 
 
